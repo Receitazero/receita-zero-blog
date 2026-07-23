@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Receita Zero</title>
+    <link>https://receitazero.github.io/receita-zero-blog/</link>
+    <description>Guias honestos, sem jargao: como resolver de graca o que os cursos pagos prometem. Comparativos diretos, custo zero.</description>
+    <language>pt-BR</language>
+    <lastBuildDate>Wed, 22 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://receitazero.github.io/receita-zero-blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Produtividade sem gastar: minimalismo digital que funciona em 2026</title>
+      <link>https://receitazero.github.io/receita-zero-blog/2026-07-22-minimalismo-digital.html</link>
+      <guid isPermaLink="true">https://receitazero.github.io/receita-zero-blog/2026-07-22-minimalismo-digital.html</guid>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+      <description>Produtividade sem gastar: minimalismo digital que funciona em 2026. Menos notificacao, menos aba, mais foco. Sistema de graca com o que ja tem no celular.</description>
+    </item>
+    <item>
+      <title>SaaS de produtividade barato: o que pagar e o que usar de graça em 2026</title>
+      <link>https://receitazero.github.io/receita-zero-blog/2026-07-21-saas-produtividade.html</link>
+      <guid isPermaLink="true">https://receitazero.github.io/receita-zero-blog/2026-07-21-saas-produtividade.html</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <description>Produtividade nao e ter o app mais caro, e fechar o loop captar-organizar-executar. SaaS barato: o que pagar e o que usar de graca em 2026.</description>
+    </item>
+    <item>
+      <title>Ler antes de dormir: como trocar a tela do celular pelo Kindle melhora o sono</title>
+      <link>https://receitazero.github.io/receita-zero-blog/2026-07-21-leitura-sono.html</link>
+      <guid isPermaLink="true">https://receitazero.github.io/receita-zero-blog/2026-07-21-leitura-sono.html</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <description>A luz azul da tela segura o sono, e biologia. Como trocar o celular pelo Kindle e-ink na hora de dormir e ainda criar habito de leitura.</description>
+    </item>
+    <item>
+      <title>Ler no trajeto: como 40 min de transporte viram 1 livro/semana</title>
+      <link>https://receitazero.github.io/receita-zero-blog/2026-07-20-leitura-trajeto.html</link>
+      <guid isPermaLink="true">https://receitazero.github.io/receita-zero-blog/2026-07-20-leitura-trajeto.html</guid>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      <description>40 min de transporte viram 1 livro por semana. Como transformar o trajeto num habito de leitura com o Kindle, sem forca de vontade.</description>
+    </item>
+    <item>
+      <title>Organizar finanças trabalhando 8h/dia: curso pago vs setup grátis</title>
+      <link>https://receitazero.github.io/receita-zero-blog/comparativo-trabalho.html</link>
+      <guid isPermaLink="true">https://receitazero.github.io/receita-zero-blog/comparativo-trabalho.html</guid>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+      <description>Organizar as financas trabalhando 8h/dia nao e questao de disciplina, e de sistema. Curso pago vs. setup gratis pra quem chega em casa exausto.</description>
+    </item>
+    <item>
+      <title>Finanças Pessoais: Curso vs. Fazer Sozinho</title>
+      <link>https://receitazero.github.io/receita-zero-blog/comparativo-financas.html</link>
+      <guid isPermaLink="true">https://receitazero.github.io/receita-zero-blog/comparativo-financas.html</guid>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+      <description>Sair do caos financeiro sem sofrer: curso pago estruturado vs. os 4 passos que voce monta de graca. Comparativo direto, sem jargao.</description>
+    </item>
+    <item>
+      <title>Produtividade de Estudo: App pago vs. Setup grátis + Kindle</title>
+      <link>https://receitazero.github.io/receita-zero-blog/comparativo-estudante.html</link>
+      <guid isPermaLink="true">https://receitazero.github.io/receita-zero-blog/comparativo-estudante.html</guid>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+      <description>Organizar os estudos em 2026 sem pagar app premium: o que o app pago entrega e o que o setup gratis + Kindle resolve igual. Comparativo honesto.</description>
+    </item>
+  </channel>
+</rss>
