@@ -59,10 +59,11 @@ Os dois começam no mesmo lugar — parar de anotar em 3 lugares e começar a bl
     <button type="submit" style="background:#0b5fff;color:#fff;border:0;padding:.7rem 1.4rem;border-radius:4px;cursor:pointer">Quero receber</button>
   </form>
   <p id="rz-msg" role="status" style="margin:.8rem 0 0;font-size:.9rem;color:#166534"></p>
-  <!-- TODO-ENDPOINT: trocar a fila local por POST no endpoint free quando o gate AT-03 for liberado -->
+  <!-- AT-03 resolvido 2026-07-31: endpoint real Brevo (form "receita-zero-blog", lista "Sua primeira lista") -->
 </section>
 <script>
 (function(){
+  var ENDPOINT='https://a1d4a52b.sibforms.com/serve/MUIFADekX6q8bo-ztWIMhUYEyTiXkXx8vChKHP65-u1ulKpThdOh7jmMUm_wuk7Jxgv2okrGvMixtA6ryk1E5PzRBsKATOgUTPlJL9PMPbk-LF_GNJ5YOulLCJOcDDDqszqQEF6A8FP79WhJZluyxX9KmpGmU2ELJgEXh5bTFye03TFzhCPmg7McBg0GNvcEH1jYr3jSj455d2WE7w==';
   var f=document.getElementById('rz-form');if(!f)return;
   f.addEventListener('submit',function(e){
     e.preventDefault();
@@ -71,6 +72,11 @@ Os dois começam no mesmo lugar — parar de anotar em 3 lugares e começar a bl
     try{var q=JSON.parse(localStorage.getItem('rz_leads')||'[]');
         q.push({email:i.value,page:location.pathname,ts:new Date().toISOString()});
         localStorage.setItem('rz_leads',JSON.stringify(q));}catch(err){}
+    var body=new URLSearchParams();
+    body.set('EMAIL',i.value);
+    body.set('email_address_check','');
+    body.set('locale','pt');
+    fetch(ENDPOINT,{method:'POST',mode:'no-cors',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:body.toString()}).catch(function(){});
     m.style.color='#166534';m.textContent='Anotado! Voce recebe o proximo na sua caixa.';
     i.value='';
   });
