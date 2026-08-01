@@ -1,0 +1,10 @@
+/* TEAM */
+Site: Guia Prático R$0 (blog affiliate — RECEITA-ZERO)
+Contato: via issues do repositório
+Localização: Brasil
+
+/* SITE */
+Stack: HTML estático puro, sem trackers, sem frameworks
+Hospedagem: GitHub Pages (free)
+Custo: R$0 — sempre
+Última atualização: 2026-07-23
