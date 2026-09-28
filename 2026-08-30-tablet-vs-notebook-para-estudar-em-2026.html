@@ -124,7 +124,7 @@
     var i=document.getElementById('rz-email'),m=document.getElementById('rz-msg');
     if(!i.value||i.value.indexOf('@')<0){m.style.color='#b91c1c';m.textContent='Digite um e-mail valido.';return;}
     try{var q=JSON.parse(localStorage.getItem('rz_leads')||'[]');
-        q.push({email:i.value,page:location.pathname,ts:new Date().toISOString());
+        q.push({email:i.value,page:location.pathname,ts:new Date().toISOString()});
         localStorage.setItem('rz_leads',JSON.stringify(q));}catch(err){}
     var body=new URLSearchParams();
     body.set('EMAIL',i.value);
